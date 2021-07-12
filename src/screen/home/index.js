@@ -27,7 +27,7 @@ const Home = props => {
     <View style={{flex: 1}}>
       <Image
         style={styles.img}
-        source={require('../../../assets/img/home.png')}
+        source={require('../../../src/assets/img/home.png')}
       />
       <View style={styles.container}>
         <View style={styles.texto}>

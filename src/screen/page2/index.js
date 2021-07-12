@@ -2,33 +2,33 @@
 import React from 'react';
 import {View, Text, Image, TouchableOpacity, FlatList} from 'react-native';
 import styles from './styles';
-import Card from '../../../components/card';
-import Selecao from '../../../components/selecao';
+import Card from '../../../src/components/card';
+import Selecao from '../../../src/components/selecao';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Page2 = props => {
   const lista = [
     {
       key: '1',
-      imagem: require('../../../assets/img/dog1.png'),
+      imagem: require('../../../src/assets/img/dog1.png'),
       texto1: 'Greyhound',
       texto2: 'Taking care of a pet is my favorite, it helps me to...',
     },
     {
       key: '2',
-      imagem: require('../../../assets/img/dog3.png'),
+      imagem: require('../../../src/assets/img/dog3.png'),
       texto1: 'Dobermann',
       texto2: 'Taking care of a pet is my favorite, it helps me to...',
     },
     {
       key: '3',
-      imagem: require('../../../assets/img/dog2.png'),
+      imagem: require('../../../src/assets/img/dog2.png'),
       texto1: 'Pomeranian',
       texto2: 'Taking care of a pet is my favorite, it helps me to...',
     },
     {
       key: '4',
-      imagem: require('../../../assets/img/dog1.png'),
+      imagem: require('../../../src/assets/img/dog1.png'),
       texto1: 'Greyhound',
       texto2: 'Taking care of a pet is my favorite, it helps me to...',
     },
@@ -60,7 +60,7 @@ const Page2 = props => {
           <View style={styles.cidade}>
             <Image
               style={styles.perfil}
-              source={require('../../../assets/img/perfil.png')}
+              source={require('../../../src/assets/img/perfil.png')}
             />
             <Icon
               style={styles.iconsCity}

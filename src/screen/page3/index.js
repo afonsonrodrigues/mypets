@@ -15,27 +15,27 @@ const Page3 = () => {
   const imagens = [
     {
       key: '1',
-      imagem: require('../../../assets/img/1pag3.png'),
+      imagem: require('../../../src/assets/img/1pag3.png'),
     },
     {
       key: '2',
-      imagem: require('../../../assets/img/2pag3.png'),
+      imagem: require('../../../src/assets/img/2pag3.png'),
     },
     {
       key: '3',
-      imagem: require('../../../assets/img/3pag3.png'),
+      imagem: require('../../../src/assets/img/3pag3.png'),
     },
   ];
 
   return (
     <ImageBackground
       style={{flex: 1, width: '100%'}}
-      source={require('../../../assets/img/fundo.png')}>
+      source={require('../../../src/assets/img/fundo.png')}>
       <View style={styles.container}>
         <View style={styles.cima}>
           <Image
             style={styles.img}
-            source={require('../../../assets/img/dog1Page3.png')}
+            source={require('../../../src/assets/img/dog1Page3.png')}
           />
         </View>
         <View style={styles.navegacao}>
